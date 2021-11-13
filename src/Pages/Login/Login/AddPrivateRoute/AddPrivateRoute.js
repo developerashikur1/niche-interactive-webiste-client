@@ -4,7 +4,7 @@ import { Redirect, Route } from 'react-router';
 import useAuth from '../../../Contexts/useAuth';
 
 const AddPrivateRoute = ({children, ...rest}) => {
-    const {admin,user, loading} = useAuth();
+    const {admin} = useAuth();
 
     if(admin===false){
         return <CircularProgress/>

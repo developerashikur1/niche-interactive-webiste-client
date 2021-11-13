@@ -8,8 +8,10 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { Button, CircularProgress, Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
+import { Alert, AlertTitle } from '@mui/material';
 
 const ManageOrders = () => {
+    const [orderedSuccess, setOrderedSuccess] = useState(false);
     const [ordered, setOrdered]  = useState([]);
     const [statusValue, setStatusValue] = useState('');
 
@@ -54,14 +56,33 @@ const ManageOrders = () => {
 
 
     const handleButton = (id) =>{
-        const status = statusValue;
-        console.log(status, id)
+        const added = {status: statusValue, id: id};
+        fetch(`http://localhost:5000/orderedUsers/state`, {
+            method: 'PUT',
+            headers: {
+                 'Content-Type' : 'application/json'
+                },
+            body: JSON.stringify(added)
+        })
+        .then(res=>res.json())
+        .then(data=>{
+            if(data.modifiedCount>0){
+                setOrderedSuccess(true)
+            }
+            setTimeout(function(){ setOrderedSuccess(false) }, 3000);
+        })
+        // console.log(id)
     }
     return (
        
         <Grid container spacing={2}>
         <Grid item xs={12}>
              <Typography variant="h4" sx={{mb:5}}>Manage All orders </Typography>
+
+             {/* successfully alert */}
+             <div sx={{width:'50%'}}>
+             {orderedSuccess && <Alert severity="success"><AlertTitle >Status Updated Successfully</AlertTitle></Alert>}
+             </div>
              {ordered.length===0 ? <CircularProgress color="success"/> :
              <TableContainer component={Paper}>
                 <Table aria-label="simple table">
@@ -94,6 +115,8 @@ const ManageOrders = () => {
                         <TableCell align="left">{row?.price}</TableCell>
                         <TableCell align="left"><Button onClick={()=>handleCancelOrder(row?._id)} variant="contained" size="small" className="bg-danger" >Cancel</Button></TableCell>
                         <TableCell align="left">
+
+
                         {/* <form onClick={handleSubmitStatus}> */}
                         <Box style={{display: 'flex'}}>
                             <select onChange={handleStatus} variant="standard" name="status">

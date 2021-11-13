@@ -9,7 +9,7 @@ import Header from '../../../Shared/Header/Header';
 import Footer from '../../../Shared/Footer/Footer';
 
 const Register = () => {
-    const {user, googleSignInMethod, emailPasswordRegisterMethod} = useAuth();
+    const {googleSignInMethod, emailPasswordRegisterMethod} = useAuth();
     const history = useHistory();
     
     // react hook form

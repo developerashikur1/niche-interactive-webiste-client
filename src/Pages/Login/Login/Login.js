@@ -8,7 +8,7 @@ import useAuth from '../../Contexts/useAuth';
 import Header from '../../Shared/Header/Header';
 import Footer from '../../Shared/Footer/Footer';
 const Login = () => {
-    const {user, googleSignInMethod, emailPasswordSignInMethod} = useAuth();
+    const { googleSignInMethod, emailPasswordSignInMethod} = useAuth();
     const location = useLocation();
     const history = useHistory();
 
@@ -29,7 +29,7 @@ const Login = () => {
        {/* login section */}
        <Header></Header>
         <Box sx={{my:8}}>
-        <Typography sx={{mb:3}} variant="h3">Please Register</Typography>
+        <Typography sx={{mb:3}} variant="h3">Please Login</Typography>
         <Grid container spacing={5} sx={{px:3}}>
         <Grid item xs={12}md={3}>
         </Grid>

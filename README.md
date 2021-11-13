@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# ACL MOTORS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ACL Website link: (https://acl-motors-a5e33.web.app/).
 
-## Available Scripts
+## Why Choose our products
 
-In the project directory, you can run:
+We provide product specifications and various certification documentsWe provide product specifications and various certification documents.
 
-### `npm start`
+We ship our dried bonito flakes the same day they are ordered! Begin production the next day! If you are in a hurry, we will do our best to get your shipment to you in time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In addition to making available the product specification forms for our dried bonito flakes, we also provide dried bonito flake production location certificates
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Description
 
-### `npm test`
+After World War II, the use of auxiliary engines mounted on bicycles spread quickly in Japan, making it easier for people to move around and transport goods. This was the starting point of manufacturing for Honda. Ever since, Honda has given shape to wide-ranging joys and the fun of riding on two wheels, through such products as the Super Cub, which reached 100 million units milestone in 2017. In September 2014, Honda's cumulative worldwide motorcycle production reached the 300 million-unit milestone.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About us
 
-### `npm run build`
+From commuter models loved all over the world, to fun-to-ride dynamic sports models, Honda manufactures a wide range of motorcycles that provide the convenience and pleasure of riding to customers worldwide.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Honda delivers to customers in over 150 countries and regions, over 6 million power products annually, spanning its general-purpose engines, and products powered by them, including tillers, generators, snow blowers to lawnmowers, pumps and outboard engines. Honda is also developing and producing electrified products useful in many facets of life,
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## specifications
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Making World-class Cars with Our Own Hands
 
-### `npm run eject`
+Manufactured at a specialized factory in North America, the NSX showcases Honda’s cutting-edge technologies, and is assembled only by the most experienced associates. Its premium performance and quality is realized through 34 years of manufacturing in North America, and Honda’s passion to “bring the joy of driving to this modern era.”
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Some Reviews
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We purchased a 3 year old Honda Civic from John Banks Honda Ipswich approximately a year ago. We were assured that the car would have a thorough safety check prior to releasing it to us, and that the stone chips on the bonnet would be fully repaired. Upon collecting the car it was obvious that Honda had just touched up the stone chips with a pen, which was the incorrect colour. Then 100 miles after picking it up the brakes started grinding due to a sticky caliper having worn the remaining slither of brake pad. We had them repaired by Halfords (top service!) and Honda eventually paid the bill, stating that the brakes were notoriously difficult to check! They have attempted to repair the paint on two further occasions, each attempt was very poor. I thought Honda were meant to provide good customer service and paid over the odds for the car in order to receive this, however the quality and service we have received is sub standard.

@@ -69,7 +69,7 @@ const MyOrders = () => {
                             {/* card body */}
                             <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                {orderedCar?.name} 
+                                {orderedCar?.productName} 
                                 <br/>
                                 $ {orderedCar?.price}
                             </Typography>

@@ -57,7 +57,7 @@ const ManageOrders = () => {
 
     const handleButton = (id) =>{
         const added = {status: statusValue, id: id};
-        fetch(`http://localhost:5000/orderedUsers/state`, {
+        fetch(`https://glacial-inlet-84612.herokuapp.com/orderedUsers/state`, {
             method: 'PUT',
             headers: {
                  'Content-Type' : 'application/json'
